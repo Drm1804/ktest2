@@ -17,7 +17,6 @@
     function login() {
       AuthService.login();
       $state.go($config.defaultState);
-      console.log('111');
     }
 
     function activate() {

@@ -1,3 +1,5 @@
+/*eslint angular/on-watch: 0*/
+
 (function() {
   'use strict';
 

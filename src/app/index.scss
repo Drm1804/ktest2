@@ -48,9 +48,6 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
-[layout=row] {
-  flex-direction: row;
-}
 
 .browsehappy {
   margin: 0.2em 0;
@@ -59,9 +56,6 @@ html {
   padding: 0.2em 0;
 }
 
-md-toolbar.md-default-theme {
-  background-color: black;
-}
 
 section.jumbotron {
   margin-bottom: 30px;
@@ -76,19 +70,11 @@ section.jumbotron {
   }
 }
 
-.techs {
-  display: flex;
-  flex-flow: row wrap;
-
-  md-card {
-    width: 30%;
-
-    img.pull-right {
-      float: right;
-      width: 100px;
-    }
-  }
+.width{
+  max-width: 1100px;
+  margin: 0 auto;
 }
+
 
 /**
  *  Do not remove the comment below. It's the markers used by gulp-inject to inject

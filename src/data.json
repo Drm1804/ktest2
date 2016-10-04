@@ -1,0 +1,173 @@
+[
+  {
+    "bookHeader": "Падение Гипериона",
+    "authors": [
+      {
+        "first": "Diaz",
+        "last": "Joyner"
+      },
+      {
+        "first": "Slater",
+        "last": "Wilkins"
+      }
+    ],
+    "lengthBool": 379,
+    "publisher": "АСТ",
+    "publishedDate": 1288323623006,
+    "reliseDate": 1288323623006,
+    "ISBN": 6609568811487,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "bookHeader": "Сотник. Беру все на себя",
+    "authors": [
+      {
+        "first": "Fay",
+        "last": "Harrington"
+      },
+      {
+        "first": "Joseph",
+        "last": "Lott"
+      }
+    ],
+    "lengthBool": 152,
+    "publisher": "Открытые системы",
+    "publishedDate": 1288323623006,
+    "reliseDate": 1288323623006,
+    "ISBN": 5416607598774,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "bookHeader": "Эпоха мёртвых. Начало",
+    "authors": [
+      {
+        "first": "Juliana",
+        "last": "Britt"
+      }
+    ],
+    "lengthBool": 962,
+    "publisher": "Открытые системы",
+    "publishedDate": 1288323623006,
+    "reliseDate": 1288323623006,
+    "ISBN": 9382094802800,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "bookHeader": "Эпоха мертвых. Прорыв",
+    "authors": [
+      {
+        "first": "Browning",
+        "last": "Ortega"
+      },
+      {
+        "first": "Bernadette",
+        "last": "Jensen"
+      }
+    ],
+    "lengthBool": 424,
+    "publisher": "АСТ",
+    "publishedDate": 1288323623006,
+    "reliseDate": 1288323623006,
+    "ISBN": 5612106058513,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "bookHeader": "Падение Гипериона",
+    "authors": [
+      {
+        "first": "Diana",
+        "last": "Leonard"
+      },
+      {
+        "first": "Hall",
+        "last": "William"
+      },
+      {
+        "first": "Tamera",
+        "last": "Bates"
+      }
+    ],
+    "lengthBool": 966,
+    "publisher": "Белый город",
+    "publishedDate": 1288323623006,
+    "reliseDate": 1288323623006,
+    "ISBN": 2184321997687,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "bookHeader": "Те, кто выжил",
+    "authors": [
+      {
+        "first": "Wallace",
+        "last": "Cooper"
+      }
+    ],
+    "lengthBool": 620,
+    "publisher": "Белый город",
+    "publishedDate": 1288323623006,
+    "reliseDate": 1288323623006,
+    "ISBN": 6675079570617,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "bookHeader": "Сотник. Беру все на себя",
+    "authors": [
+      {
+        "first": "Rivas",
+        "last": "Mcleod"
+      },
+      {
+        "first": "Marisol",
+        "last": "Sharp"
+      },
+      {
+        "first": "Aguirre",
+        "last": "Hinton"
+      }
+    ],
+    "lengthBool": 410,
+    "publisher": "Открытые системы",
+    "publishedDate": 1288323623006,
+    "reliseDate": 1288323623006,
+    "ISBN": 9707729159388,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "bookHeader": "Вечеринка в стиле «ВАМП»",
+    "authors": [
+      {
+        "first": "Vargas",
+        "last": "Woodward"
+      }
+    ],
+    "lengthBool": 679,
+    "publisher": "Белый город",
+    "publishedDate": 1288323623006,
+    "reliseDate": 1288323623006,
+    "ISBN": 7301201132591,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "bookHeader": "Те, кто выжил",
+    "authors": [
+      {
+        "first": "Socorro",
+        "last": "Rios"
+      },
+      {
+        "first": "Lessie",
+        "last": "Best"
+      },
+      {
+        "first": "Morton",
+        "last": "Lowery"
+      }
+    ],
+    "lengthBool": 505,
+    "publisher": "Питер",
+    "publishedDate": 1288323623006,
+    "reliseDate": 1288323623006,
+    "ISBN": 4669527364196,
+    "picture": "http://placehold.it/32x32"
+  }
+]
