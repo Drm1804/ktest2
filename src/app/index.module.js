@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('ktest2', ['ui.router', 'ngMaterial', 'LocalStorageModule']);
+    .module('ktest2', ['ui.router', 'ngMaterial', 'LocalStorageModule', 'mdPickers', 'ui.mask']);
 
 })();

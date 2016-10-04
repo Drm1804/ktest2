@@ -10,8 +10,18 @@
 
 .b-books-table tr{
   border-bottom: 1px solid #c7c7c7;
+  transition-duration: .3s;
+}
+.b-books-table tr:hover{
+  background-color: #F9F9F9;
+  cursor: pointer;
 }
 .b-books-table th,
 .b-books-table td{
   padding:5px 10px;
+}
+.books-plus-btn{
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
 }

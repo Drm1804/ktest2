@@ -37,21 +37,31 @@
         Обложка
         <span></span>
       </th>
+      <th class="md-caption" style="cursor: pointer;"></th>
     </tr>
     </thead>
     <tbody>
-    <tr  ng-repeat="book in bks.books | orderBy: sort : sortDesc">
-      <td class="md-caption">{{book.bookHeader}}</td>
-      <td class="md-caption">
+    <tr ng-repeat="book in bks.books | orderBy: sort : sortDesc">
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{book.bookHeader}}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">
         <span ng-repeat="author in book.authors">{{author.first}} {{author.last}} ,</span>
       </td>
-      <td class="md-caption">{{ book.lengthBool }}</td>
-      <td class="md-caption">{{ book.publisher  }}</td>
-      <td class="md-caption">{{ book.publishedDate | date:'yyyy-MM-dd' }}</td>
-      <td class="md-caption">{{ book.reliseDate | date:'yyyy-MM-dd'}}</td>
-      <td class="md-caption">{{ book.ISBN }}</td>
-      <td class="md-caption"><img ng-src="{{ book.picture }}" alt=""/></td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{ book.lengthBool }}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{ book.publisher  }}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{ book.publishedDate | date:'yyyy-MM-dd' }}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{ book.reliseDate | date:'yyyy-MM-dd'}}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{ book.ISBN | ISNB}}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})"><img ng-src="{{ book.picture }}" alt=""/></td>
+      <td class="md-caption">
+        <md-button class="md-fab md-mini md-warn" aria-label="Use Android">
+          <md-icon md-svg-src="../assets/images/delete.svg" style="color: white;" ng-click="bks.deleteBook(book._id)"></md-icon>
+        </md-button>
+      </td>
     </tr>
     </tbody>
   </table>
+
+  <md-button class="md-fab md-primary books-plus-btn" aria-label="Use Android" ui-sref="auth.book()">
+    <md-icon md-svg-src="../assets/images/plus.svg"></md-icon>
+  </md-button>
 </div>

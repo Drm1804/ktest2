@@ -1,173 +1,218 @@
 [
   {
-    "bookHeader": "Падение Гипериона",
+    "_id": "57f3863b5bbe60a4abbe53b7",
+    "bookHeader": "Наследие",
     "authors": [
       {
-        "first": "Diaz",
-        "last": "Joyner"
+        "first": "Tracy",
+        "last": "Palmer"
       },
       {
-        "first": "Slater",
-        "last": "Wilkins"
+        "first": "Roach",
+        "last": "Horn"
+      },
+      {
+        "first": "Candice",
+        "last": "Macias"
       }
     ],
-    "lengthBool": 379,
+    "lengthBool": 990,
     "publisher": "АСТ",
-    "publishedDate": 1288323623006,
-    "reliseDate": 1288323623006,
-    "ISBN": 6609568811487,
+    "publishedDate": "2016-09-30T10:44:00.0000000Z",
+    "reliseDate": "2016-09-30T10:44:00.0000000Z",
+    "ISBN": 2519704692065,
     "picture": "http://placehold.it/32x32"
   },
   {
-    "bookHeader": "Сотник. Беру все на себя",
+    "_id": "57f3863b8702b48845ca1ec5",
+    "bookHeader": "Метро 2033",
     "authors": [
       {
-        "first": "Fay",
-        "last": "Harrington"
-      },
-      {
-        "first": "Joseph",
-        "last": "Lott"
+        "first": "Rush",
+        "last": "Burris"
       }
     ],
-    "lengthBool": 152,
-    "publisher": "Открытые системы",
-    "publishedDate": 1288323623006,
-    "reliseDate": 1288323623006,
-    "ISBN": 5416607598774,
+    "lengthBool": 855,
+    "publisher": "АСТ",
+    "publishedDate": "2016-09-30T10:44:00.0000000Z",
+    "reliseDate": "2016-09-30T10:44:00.0000000Z",
+    "ISBN": 1285301388707,
     "picture": "http://placehold.it/32x32"
   },
   {
-    "bookHeader": "Эпоха мёртвых. Начало",
-    "authors": [
-      {
-        "first": "Juliana",
-        "last": "Britt"
-      }
-    ],
-    "lengthBool": 962,
-    "publisher": "Открытые системы",
-    "publishedDate": 1288323623006,
-    "reliseDate": 1288323623006,
-    "ISBN": 9382094802800,
-    "picture": "http://placehold.it/32x32"
-  },
-  {
+    "_id": "57f3863b2807c8eec731d995",
     "bookHeader": "Эпоха мертвых. Прорыв",
     "authors": [
       {
-        "first": "Browning",
-        "last": "Ortega"
+        "first": "Green",
+        "last": "Rich"
       },
       {
-        "first": "Bernadette",
-        "last": "Jensen"
+        "first": "Virgie",
+        "last": "Washington"
+      },
+      {
+        "first": "Judy",
+        "last": "Lott"
       }
     ],
-    "lengthBool": 424,
-    "publisher": "АСТ",
-    "publishedDate": 1288323623006,
-    "reliseDate": 1288323623006,
-    "ISBN": 5612106058513,
+    "lengthBool": 398,
+    "publisher": "Белый город",
+    "publishedDate": "2016-09-30T10:44:00.0000000Z",
+    "reliseDate": "2016-09-30T10:44:00.0000000Z",
+    "ISBN": 5094929890241,
     "picture": "http://placehold.it/32x32"
   },
   {
-    "bookHeader": "Падение Гипериона",
+    "_id": "57f3863b058e7d51d457a454",
+    "bookHeader": "Расплата",
     "authors": [
       {
-        "first": "Diana",
-        "last": "Leonard"
+        "first": "Suarez",
+        "last": "Maynard"
       },
       {
-        "first": "Hall",
-        "last": "William"
+        "first": "Nanette",
+        "last": "Norton"
       },
       {
-        "first": "Tamera",
-        "last": "Bates"
+        "first": "Kent",
+        "last": "Barber"
       }
     ],
-    "lengthBool": 966,
-    "publisher": "Белый город",
-    "publishedDate": 1288323623006,
-    "reliseDate": 1288323623006,
-    "ISBN": 2184321997687,
+    "lengthBool": 195,
+    "publisher": "Открытые системы",
+    "publishedDate": "2016-09-30T10:44:00.0000000Z",
+    "reliseDate": "2016-09-30T10:44:00.0000000Z",
+    "ISBN": 1550678281113,
     "picture": "http://placehold.it/32x32"
   },
   {
-    "bookHeader": "Те, кто выжил",
-    "authors": [
-      {
-        "first": "Wallace",
-        "last": "Cooper"
-      }
-    ],
-    "lengthBool": 620,
-    "publisher": "Белый город",
-    "publishedDate": 1288323623006,
-    "reliseDate": 1288323623006,
-    "ISBN": 6675079570617,
-    "picture": "http://placehold.it/32x32"
-  },
-  {
+    "_id": "57f3863bffa814130150e35c",
     "bookHeader": "Сотник. Беру все на себя",
     "authors": [
       {
-        "first": "Rivas",
-        "last": "Mcleod"
+        "first": "Ines",
+        "last": "Hopper"
       },
       {
-        "first": "Marisol",
-        "last": "Sharp"
+        "first": "Merle",
+        "last": "George"
       },
       {
-        "first": "Aguirre",
-        "last": "Hinton"
+        "first": "Gabriela",
+        "last": "Jefferson"
       }
     ],
-    "lengthBool": 410,
+    "lengthBool": 264,
     "publisher": "Открытые системы",
-    "publishedDate": 1288323623006,
-    "reliseDate": 1288323623006,
-    "ISBN": 9707729159388,
+    "publishedDate": "2016-09-30T10:44:00.0000000Z",
+    "reliseDate": "2016-09-30T10:44:00.0000000Z",
+    "ISBN": 5271675637457,
     "picture": "http://placehold.it/32x32"
   },
   {
-    "bookHeader": "Вечеринка в стиле «ВАМП»",
+    "_id": "57f3863b0c87002dfe4afee8",
+    "bookHeader": "Эпоха мёртвых. Начало",
     "authors": [
       {
-        "first": "Vargas",
-        "last": "Woodward"
+        "first": "Oneal",
+        "last": "Brock"
       }
     ],
-    "lengthBool": 679,
+    "lengthBool": 932,
     "publisher": "Белый город",
-    "publishedDate": 1288323623006,
-    "reliseDate": 1288323623006,
-    "ISBN": 7301201132591,
+    "publishedDate": "2016-09-30T10:44:00.0000000Z",
+    "reliseDate": "2016-09-30T10:44:00.0000000Z",
+    "ISBN": 4307459642644,
     "picture": "http://placehold.it/32x32"
   },
   {
-    "bookHeader": "Те, кто выжил",
+    "_id": "57f3863b4435dcd4211efbc3",
+    "bookHeader": "Неотвратимая гибель",
     "authors": [
       {
-        "first": "Socorro",
+        "first": "Margo",
+        "last": "Finch"
+      },
+      {
+        "first": "Dalton",
+        "last": "Olson"
+      },
+      {
+        "first": "Karyn",
+        "last": "Bean"
+      }
+    ],
+    "lengthBool": 180,
+    "publisher": "АСТ",
+    "publishedDate": "2016-09-30T10:44:00.0000000Z",
+    "reliseDate": "2016-09-30T10:44:00.0000000Z",
+    "ISBN": 8062690466409,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "_id": "57f3863b5a7bae8bb79b8bad",
+    "bookHeader": "Неотвратимая гибель",
+    "authors": [
+      {
+        "first": "Rachelle",
+        "last": "Oneil"
+      },
+      {
+        "first": "Malone",
+        "last": "Graves"
+      }
+    ],
+    "lengthBool": 213,
+    "publisher": "Открытые системы",
+    "publishedDate": "2016-09-30T10:44:00.0000000Z",
+    "reliseDate": "2016-09-30T10:44:00.0000000Z",
+    "ISBN": 6951794001273,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "_id": "57f3863b2d1b3e3b05e29685",
+    "bookHeader": "Эпоха мёртвых. Начало",
+    "authors": [
+      {
+        "first": "Watson",
+        "last": "Terrell"
+      },
+      {
+        "first": "Webster",
+        "last": "Curry"
+      }
+    ],
+    "lengthBool": 705,
+    "publisher": "Белый город",
+    "publishedDate": "2016-09-30T10:44:00.0000000Z",
+    "reliseDate": "2016-09-30T10:44:00.0000000Z",
+    "ISBN": 5842466678703,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "_id": "57f3863bbdb482a64f54d4eb",
+    "bookHeader": "Падение Гипериона",
+    "authors": [
+      {
+        "first": "Jamie",
         "last": "Rios"
       },
       {
-        "first": "Lessie",
-        "last": "Best"
+        "first": "Golden",
+        "last": "Duffy"
       },
       {
-        "first": "Morton",
-        "last": "Lowery"
+        "first": "Gina",
+        "last": "Daniel"
       }
     ],
-    "lengthBool": 505,
+    "lengthBool": 993,
     "publisher": "Питер",
-    "publishedDate": 1288323623006,
-    "reliseDate": 1288323623006,
-    "ISBN": 4669527364196,
+    "publishedDate": "2016-09-30T10:44:00.0000000Z",
+    "reliseDate": "2016-09-30T10:44:00.0000000Z",
+    "ISBN": 1108832973521,
     "picture": "http://placehold.it/32x32"
   }
 ]

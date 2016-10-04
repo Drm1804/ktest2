@@ -1,0 +1,53 @@
+<div class="width b-book">
+  <h1>Book</h1>
+  <p>Название:</p>
+  <form name="BookForm">
+    <md-input-container class="full-width">
+      <input ng-model="bk.data.bookHeader" type="text" aria-label="name book" required>
+    </md-input-container>
+    <p>Авторы:</p>
+    <div layout="row" ng-repeat="author in bk.data.authors">
+      <div flex="25">
+        <md-input-container>
+          <label>First name</label>
+          <input ng-model="author.first" type="text" aria-label="first name" md-maxlength="20" required>
+        </md-input-container>
+      </div>
+      <div flex="25">
+        <md-input-container>
+          <label>Last name</label>
+          <input ng-model="author.last" type="text" aria-label="last name" md-maxlength="20" required>
+        </md-input-container>
+      </div>
+      <md-button class="md-icon-button" aria-label="More" ng-click="bk.deleteAuthor(author)">
+        <md-icon md-svg-src="../assets/images/close.svg" style="color: red;"></md-icon>
+      </md-button>
+    </div>
+    <md-button class="md-raised primary" ng-click="bk.addAuthor()">Добавить автора</md-button>
+    <p>Количество страниц:</p>
+    <md-input-container class="full-width">
+      <input ng-model="bk.data.lengthBool" type="number" aria-label="book length" step="any" md-maxlength="10000" required>
+    </md-input-container>
+    <p>Издательство:</p>
+    <md-input-container class="full-width">
+      <input ng-model="bk.data.publisher" type="text" aria-label="book publisher"  md-maxlength="30" required>
+    </md-input-container>
+    <div layout="row">
+      <div flex="50">
+        <p>Год публикации:</p>
+        <mdp-date-picker mdp-placeholder="Date" mdp-min-date="bk.minDate" ng-model="bk.data.publishedDate"></mdp-date-picker>
+      </div>
+      <div flex="50">
+        <p>Дата выхода в тираж:</p>
+        <mdp-date-picker mdp-placeholder="Date" mdp-min-date="bk.minDate" ng-model="bk.data.reliseDate"></mdp-date-picker>
+      </div>
+    </div>
+    <p>ISBN:</p>
+    <md-input-container class="full-width">
+      <input ng-model="bk.data.ISBN" type="text" ui-mask="999-9-99-999999-9" aria-label="isnb" required>
+    </md-input-container>
+    <md-button class="md-raised md-warn" style="vertical-align: top" ng-click="bk.editBook()" ng-disabled="BookForm.$invalid">Редактировать</md-button>
+    <md-button class="md-raised primary" ui-sref="auth.books">Отмена</md-button>
+  </form>
+
+</div>

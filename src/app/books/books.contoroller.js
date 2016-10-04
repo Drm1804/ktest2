@@ -11,6 +11,7 @@
     vm.books = null;
 
     vm.activate = activate;
+    vm.deleteBook = deleteBook;
     vm.getBooks = getBooks;
     vm.activate();
 
@@ -18,6 +19,13 @@
       $books.getBooks()
         .then(function (resp) {
           vm.books = resp;
+        });
+    }
+
+    function deleteBook(id){
+      $books.deleteBook(id)
+        .then(function () {
+          vm.getBooks();
         });
     }
 

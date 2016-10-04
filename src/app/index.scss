@@ -74,8 +74,9 @@ section.jumbotron {
   max-width: 1100px;
   margin: 0 auto;
 }
-
-
+mdp-date-picker .md-button.md-icon-button{
+  margin-top: 0;
+}
 /**
  *  Do not remove the comment below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically

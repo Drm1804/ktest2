@@ -7,31 +7,28 @@
   /** @ngInject*/
   function AuthService(localStorageService){
     var service = {
-      iaAuth: null,
+      isAuth: null,
       isAuthenticated: isAuthenticated,
       login: login,
       logout: logout
     };
 
     var iaAuth = localStorageService.get('token');
-    iaAuth ? service.iaAuth = true : service.iaAuth = false;
-
+    iaAuth ? service.isAuth = true : service.isAuth = false;
 
     return service;
 
     function login(){
-      localStorageService.set('iaAuth', true);
+      localStorageService.set('isAuth', true);
     }
 
     function logout(){
-      localStorageService.set('iaAuth', false);
+      localStorageService.set('isAuth', false);
     }
 
     function isAuthenticated() {
-      return service.iaAuth;
+      return service.isAuth;
     }
   }
-
-
 
 })();
