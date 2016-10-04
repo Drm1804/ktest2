@@ -8,11 +8,23 @@
   /** @ngInject */
   function routerConfig($stateProvider, $urlRouterProvider) {
     $stateProvider
-      .state('home', {
-        url: '/',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
-        controllerAs: 'main'
+      .state('auth', {
+        abstract: true,
+        template: '<div ui-view=""></div>',
+        resolve: {
+          auth: function (AuthService, $q, $timeout, $state, $config) {
+            var dfd = $q.defer();
+            $timeout(function(){
+              if(!AuthService.isAuthenticated()){
+                dfd.resolve();
+              } else{
+                $state.go($config.loginState);
+                dfd.reject();
+              }
+            });
+            return dfd.promise;
+          }
+        }
       });
 
     $urlRouterProvider.otherwise('/');

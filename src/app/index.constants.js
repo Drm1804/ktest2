@@ -4,7 +4,9 @@
 
   angular
     .module('ktest2')
-    .constant('malarkey', malarkey)
-    .constant('moment', moment);
+    .constant('$config', {
+      defaultState: 'auth.books',
+      loginState: 'login'
+    })
 
 })();
