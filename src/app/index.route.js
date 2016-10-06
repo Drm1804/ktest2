@@ -15,7 +15,6 @@
           auth: function (AuthService, $q, $timeout, $state, $config) {
             var dfd = $q.defer();
             $timeout(function(){
-              console.log(AuthService.isAuthenticated());
               if(AuthService.isAuthenticated()){
                 dfd.resolve();
               } else{

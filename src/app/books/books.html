@@ -1,57 +1,54 @@
 <div class="width">
 <nav-bar></nav-bar>
-  <h1>books</h1>
-
-
   <table class="b-books-table">
     <thead>
-    <tr>
-      <th class="md-caption" style="cursor: pointer;">
+    <tr style="cursor: default;">
+      <th ng-click="bks.sortFunc('bookHeader')" class="md-caption" style="cursor: pointer;">
         Заголовок
         <span></span>
       </th>
-      <th class="md-caption" style="cursor: pointer;">
+      <th class="md-caption">
         Список авторов
         <span></span>
       </th>
-      <th class="md-caption" style="cursor: pointer;">
+      <th class="md-caption">
         Количество страниц
         <span></span>
       </th>
-      <th class="md-caption" style="cursor: pointer;">
+      <th class="md-caption">
         Название издательства
         <span></span>
       </th>
-      <th class="md-caption" style="cursor: pointer;">
+      <th ng-click="bks.sortFunc('publishedDate')" class="md-caption" style="cursor: pointer;">
         Год публикации
         <span></span>
       </th>
-      <th class="md-caption" style="cursor: pointer;">
+      <th class="md-caption">
         Дата выхода в тираж
         <span></span>
       </th>
-      <th class="md-caption" style="cursor: pointer;">
+      <th class="md-caption">
         ISBN
         <span></span>
       </th>
-      <th class="md-caption" style="cursor: pointer;">
+      <th class="md-caption">
         Обложка
         <span></span>
       </th>
-      <th class="md-caption" style="cursor: pointer;"></th>
+      <th class="md-caption"></th>
     </tr>
     </thead>
     <tbody>
-    <tr ng-repeat="book in bks.books | orderBy: sort : sortDesc">
-      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{book.bookHeader}}</td>
+    <tr ng-repeat="book in bks.books | orderBy: bks.sort : bks.sortDesc">
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{::book.bookHeader}}</td>
       <td class="md-caption" ui-sref="auth.book({id: book._id})">
-        <span ng-repeat="author in book.authors">{{author.first}} {{author.last}} ,</span>
+        <span ng-repeat="author in book.authors">{{author.first}} {{::author.last}} ,</span>
       </td>
-      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{ book.lengthBool }}</td>
-      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{ book.publisher }}</td>
-      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{ book.publishedDate | date:'yyyy-MM-dd' }}</td>
-      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{ book.reliseDate | date:'yyyy-MM-dd'}}</td>
-      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{ book.ISBN | ISNB}}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{::book.lengthBool }}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{::book.publisher }}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{::book.publishedDate | date:'yyyy-MM-dd' }}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{::book.reliseDate | date:'yyyy-MM-dd'}}</td>
+      <td class="md-caption" ui-sref="auth.book({id: book._id})">{{::book.ISBN | ISNB}}</td>
       <td class="md-caption" ui-sref="auth.book({id: book._id})"><img ng-src="{{ book.picture }}" alt=""/></td>
       <td class="md-caption">
         <md-button class="md-fab md-mini md-warn" aria-label="Use Android">
