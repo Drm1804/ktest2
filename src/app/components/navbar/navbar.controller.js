@@ -7,7 +7,6 @@
   /** @ngInject */
   function NavbarController(AuthService){
     var vm = this;
-
     vm.logout = logout;
 
     function logout(){

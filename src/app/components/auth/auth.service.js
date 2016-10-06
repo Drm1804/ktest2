@@ -5,7 +5,7 @@
     .service('AuthService', AuthService);
 
   /** @ngInject*/
-  function AuthService(localStorageService){
+  function AuthService(localStorageService, $state, $config) {
     var service = {
       isAuth: null,
       isAuthenticated: isAuthenticated,
@@ -13,17 +13,20 @@
       logout: logout
     };
 
-    var iaAuth = localStorageService.get('token');
+    var iaAuth = localStorageService.get('isAuth');
     iaAuth ? service.isAuth = true : service.isAuth = false;
 
     return service;
 
-    function login(){
+    function login() {
+      service.isAuth = true;
       localStorageService.set('isAuth', true);
     }
 
-    function logout(){
+    function logout() {
+      service.isAuth = false;
       localStorageService.set('isAuth', false);
+      $state.go($config.defaultState, null, {reload: true})
     }
 
     function isAuthenticated() {
