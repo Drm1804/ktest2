@@ -50,8 +50,8 @@
     }
 
     function activate() {
-      vm.sort = localStorageService.get('sort', vm.sort);
-      vm.sortDesc = localStorageService.get('sortDesc', vm.sortDesc);
+      vm.sort = localStorageService.get('sort');
+      vm.sortDesc = localStorageService.get('sortDesc');
       vm.getBooks();
     }
   }
